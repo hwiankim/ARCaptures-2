@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ADDAF65B2FAF716400803C59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADDAF6592FAF716400803C59 /* Info.plist */; };
+		ADDAF65C2FAF716400803C59 /* ARPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAF6562FAF716400803C59 /* ARPreviewView.swift */; };
+		ADDAF65D2FAF716400803C59 /* ARCaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAF6542FAF716400803C59 /* ARCaptureSession.swift */; };
+		ADDAF65E2FAF716400803C59 /* ARFoodCapture2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAF6552FAF716400803C59 /* ARFoodCapture2App.swift */; };
+		ADDAF65F2FAF716400803C59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAF6582FAF716400803C59 /* ContentView.swift */; };
+		ADDAF6602FAF716400803C59 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAF65A2FAF716400803C59 /* Models.swift */; };
+		ADDAF6612FAF716400803C59 /* CaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDAF6572FAF716400803C59 /* CaptureManager.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		ADDAF6462FAF713A00803C59 /* ARFoodCapture2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARFoodCapture2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDAF6542FAF716400803C59 /* ARCaptureSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCaptureSession.swift; sourceTree = "<group>"; };
+		ADDAF6552FAF716400803C59 /* ARFoodCapture2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFoodCapture2App.swift; sourceTree = "<group>"; };
+		ADDAF6562FAF716400803C59 /* ARPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPreviewView.swift; sourceTree = "<group>"; };
+		ADDAF6572FAF716400803C59 /* CaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureManager.swift; sourceTree = "<group>"; };
+		ADDAF6582FAF716400803C59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADDAF6592FAF716400803C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADDAF65A2FAF716400803C59 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ADDAF6622FAF716900803C59 /* ARFoodCapture2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARFoodCapture2-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		ADDAF6482FAF713A00803C59 /* ARFoodCapture2 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ARFoodCapture2;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ADDAF6432FAF713A00803C59 /* Frameworks */ = {
@@ -32,8 +42,15 @@
 		ADDAF63D2FAF713A00803C59 = {
 			isa = PBXGroup;
 			children = (
-				ADDAF6482FAF713A00803C59 /* ARFoodCapture2 */,
+				ADDAF6542FAF716400803C59 /* ARCaptureSession.swift */,
+				ADDAF6552FAF716400803C59 /* ARFoodCapture2App.swift */,
+				ADDAF6562FAF716400803C59 /* ARPreviewView.swift */,
+				ADDAF6572FAF716400803C59 /* CaptureManager.swift */,
+				ADDAF6582FAF716400803C59 /* ContentView.swift */,
+				ADDAF6592FAF716400803C59 /* Info.plist */,
+				ADDAF65A2FAF716400803C59 /* Models.swift */,
 				ADDAF6472FAF713A00803C59 /* Products */,
+				ADDAF6622FAF716900803C59 /* ARFoodCapture2-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +77,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				ADDAF6482FAF713A00803C59 /* ARFoodCapture2 */,
-			);
 			name = ARFoodCapture2;
 			packageProductDependencies = (
 			);
@@ -82,6 +96,7 @@
 				TargetAttributes = {
 					ADDAF6452FAF713A00803C59 = {
 						CreatedOnToolsVersion = 26.4.1;
+						LastSwiftMigration = 2640;
 					};
 				};
 			};
@@ -109,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDAF65B2FAF716400803C59 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDAF65C2FAF716400803C59 /* ARPreviewView.swift in Sources */,
+				ADDAF65D2FAF716400803C59 /* ARCaptureSession.swift in Sources */,
+				ADDAF65E2FAF716400803C59 /* ARFoodCapture2App.swift in Sources */,
+				ADDAF65F2FAF716400803C59 /* ContentView.swift in Sources */,
+				ADDAF6602FAF716400803C59 /* Models.swift in Sources */,
+				ADDAF6612FAF716400803C59 /* CaptureManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -269,6 +292,8 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFoodCapture2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -280,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -300,6 +326,7 @@
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ARFoodCapture2-Bridging-Header.h";
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
