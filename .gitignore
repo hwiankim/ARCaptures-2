@@ -1,0 +1,11 @@
+# OS X system files
+.DS_Store
+
+# Xcode personal settings and build artifacts
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.analytics
+
+# Data directories
+frame_*/
